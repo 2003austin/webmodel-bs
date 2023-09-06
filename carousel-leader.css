@@ -1,0 +1,84 @@
+
+body {
+  padding-top: 3.5rem;
+  padding-bottom: 3rem;
+  color: rgb(var(--bs-tertiary-color-rgb));
+  background-image: url(背景.png); /* 替换成您的图像 URL */
+  background-size: cover; /* 根据需要调整背景大小属性 */
+  background-repeat: no-repeat; /* 防止图像平铺 */
+  background-attachment: fixed; /* 可选，固定背景图像 */
+}
+/*導覽列的左右邊距*/
+header li{
+  margin: 0 9px
+}
+ /* 添加導覽列觸摸感效果 */
+ .navbar-nav .nav-item:hover {
+  background-color: #e1e1e1; /* 懸停時背景顏色 */
+  transition: background-color 0.3s ease; /* 添加過度效果 */
+  border-radius: 17px;/* 圓滑度 */
+}
+
+
+
+
+
+
+
+/* 水平分割線 */
+
+.featurette-divider {
+  margin: 3rem auto 2rem; /* Space out the Bootstrap <hr> more */
+}
+
+
+
+/*自己用的css*/
+#navigation .container{
+  position: relative;
+  height: 100%;
+}
+
+
+
+
+
+
+.letter_1{
+  font-family: 'Noto Sans TC', sans-serif;
+  
+}
+
+/*標楷體*/
+.DFKai-sb{
+  font-family: DFKai-sb;
+}
+
+
+/*水平分割線for leader*/
+#intro_2-featurette-divider{
+  margin: 1rem auto 2rem;
+}
+
+
+/*底線與字的距離*/
+u{
+  text-underline-offset: 5px;
+}
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+
+@media (min-width: 40em) {
+  /* Bump up size of carousel content */
+  .carousel-caption p {
+    margin-bottom: 1.25rem;
+    font-size: 1.25rem;
+    line-height: 1.4;
+  }
+
+  
+}
+
+
