@@ -19,7 +19,14 @@ header li{
   border-radius: 17px;/* 圓滑度 */
 }
 
+.navbar-nav .nav-link {
+  text-align: center;
+  line-height: 1;
+}
 
+.small-text {
+  font-size: 12px; 
+}
 
 
 
